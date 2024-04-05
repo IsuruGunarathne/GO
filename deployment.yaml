@@ -17,7 +17,7 @@ spec:
         - name: vol
           mountPath: /tmp
   initContainers:
-    - name: aws-secrets-manager
+    - name: azure-secrets-manager
       image: acrasgardeomainrnd001.azurecr.io/secret-sidecar:central
       env:
         - name: AWS_REGION
