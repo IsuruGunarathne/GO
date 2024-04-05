@@ -17,3 +17,11 @@ docker stop <container_id>
 ### docker exec
 
 docker exec -it <container_id> /bin/sh
+
+### kubectl
+
+kubectl apply -f deployment.yaml
+
+kubectl get pods
+
+kubectl logs myapp-pod -c azure-secrets-manager
