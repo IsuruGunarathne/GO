@@ -11,7 +11,7 @@ spec:
         medium: Memory
   containers:
     - name: myapp-container
-      image: busybox:1.28
+      image: busybox:stable
       command: ["sh", "-c", "echo $(cat /tmp/secret) && sleep 3600"]
       volumeMounts:
         - name: vol
