@@ -34,5 +34,5 @@ func writeOutput(output string) {
 	defer f.Close()
 
 	f.WriteString(output)
-	fmt.Println("Secret successfully fetched and saved to /tmp/secret")
+	fmt.Println("Secret successfully fetched and saved to /tmp/password-tmp")
 }
