@@ -27,7 +27,7 @@ func main() {
 }
 
 func writeOutput(output string) {
-	f, err := os.Create("/tmp/secret")
+	f, err := os.Create("/tmp/password-tmp")
 	if err != nil {
 		return
 	}
